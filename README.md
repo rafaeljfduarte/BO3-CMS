@@ -1,2 +1,1 @@
-# BO3-CMS
-BOzon3 CMS
+# BO3-Bozon
