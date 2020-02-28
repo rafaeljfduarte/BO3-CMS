@@ -34,4 +34,4 @@ $mdl = bo3::c2r([
 
 bo3::importPlg ("files", []);
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

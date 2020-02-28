@@ -50,4 +50,4 @@ if (!isset($_POST["submit"])) {
 	}
 }
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

@@ -121,4 +121,4 @@ $mdl = bo3::c2r([
 	], $form_tpl)
 ], bo3::mdl_load("templates/add.tpl"));
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

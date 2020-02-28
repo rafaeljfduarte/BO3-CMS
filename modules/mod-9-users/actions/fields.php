@@ -48,4 +48,4 @@ $mdl = bo3::c2r([
 	"list" => (isset($list)) ? $list : $message
 ], bo3::mdl_load("templates/fields.tpl"));
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

@@ -27,4 +27,4 @@ if (isset($_POST["submitInstall"]) && c9_user::isOwner($authData)) {
 	], bo3::mdl_load("templates-e/install/form.tpl"));
 }
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

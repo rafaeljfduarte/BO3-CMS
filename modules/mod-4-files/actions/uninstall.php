@@ -25,4 +25,4 @@ if (isset($_POST["submitUninstall"]) && c9_user::isOwner($authData)) {
 	], bo3::mdl_load("templates-e/uninstall/message.tpl"));
 }
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

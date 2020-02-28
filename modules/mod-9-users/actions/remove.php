@@ -14,4 +14,4 @@ if (isset($_POST["inputRemove"])) {
 	$mdl = bo3::c2r(["removed-message" => $remove_message], bo3::mdl_load("templates/remove.tpl"));
 }
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

@@ -5,4 +5,4 @@ $mdl = bo3::c2r([
 	'sub-version' => $cfg->system->sub_version
 ], bo3::mdl_load("templates/home.tpl"));
 
-include "pages/module-core.php";
+include CONTROLLERS ."module-core.php";

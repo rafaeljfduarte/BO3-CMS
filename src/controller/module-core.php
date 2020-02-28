@@ -2,10 +2,10 @@
 
 // VERSION: 3.0.4
 
-include "pages-e/header.php";
-include "pages-e/footer.php";
-include "pages-e/menu.php";
-include "pages-e/dropdown-menu.php";
+include CONTROLLERS . "components" . DS . "header.php";
+include CONTROLLERS . "components" . DS . "footer.php";
+include CONTROLLERS . "components" . DS . "menu.php";
+include CONTROLLERS . "components" . DS . "dropdown-menu.php";
 
 if (c9_user::isOwner($authData) && empty($a) && count($cfg->mdl->dbTables) > 0) {
 	$uninstall = bo3::c2r([

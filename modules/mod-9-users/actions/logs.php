@@ -37,4 +37,4 @@ $mdl = bo3::c2r([
 	"but-view" => $mdl_lang["logs"]["but-view"]
 ], bo3::mdl_load("templates/logs.tpl"));
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

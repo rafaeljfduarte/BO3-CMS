@@ -43,5 +43,4 @@ if (isset($_POST["submit"])) {
 	], bo3::mdl_load("templates/fields-add.tpl"));
 }
 
-
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

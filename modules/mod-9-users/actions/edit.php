@@ -141,4 +141,4 @@ $mdl = bo3::c2r([
 	], bo3::mdl_load("templates-e/edit/form.tpl"))
 ], bo3::mdl_load("templates/edit.tpl"));
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

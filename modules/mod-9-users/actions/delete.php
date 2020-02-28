@@ -64,4 +64,4 @@
 		header("Location: {$cfg->system->path_bo}/0/{$lg_s}/404/");
 	}
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";

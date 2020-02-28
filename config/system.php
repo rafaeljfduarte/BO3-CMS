@@ -12,11 +12,10 @@ $cfg->system->owner = "";
 
 $cfg->system->protocol = "https"; // you can use http instead
 $cfg->system->domain = "your domain here";
-$cfg->system->path = "";
-$cfg->system->path_bo = "{$cfg->system->path}/backoffice";
-$cfg->system->start = "tv";
+$cfg->system->path = "/BO3-CMS";
+$cfg->system->path_bo = "{$cfg->system->path}";
 
-$cfg->system->version = "3.5.0";
+$cfg->system->version = "3.6.0";
 $cfg->system->sub_version = "RC";
 
 $cfg->system->key = "GJTBpKregE9WgXc";

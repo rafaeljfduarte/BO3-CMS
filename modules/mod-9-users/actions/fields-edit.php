@@ -58,4 +58,4 @@ if (isset($id) && !empty($id)) {
 	header("Location: {$cfg->system->path_bo}/{$lg_s}/9-users/fields/");
 }
 
-include "pages/module-core.php";
+include CONTROLLERS . "module-core.php";
